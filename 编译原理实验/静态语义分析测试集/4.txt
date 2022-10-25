@@ -1,0 +1,25 @@
+int mymax(int m, int n) {
+    if (m >= n ) break;
+    else return n;
+}
+
+int main() {
+    int a = mymax(23,17);
+    if (a > 10) continue;
+
+    int i = 2, flag = 1;
+	i + flag % a;
+	while (i < a) {
+        if (i > a/2) break;
+
+        if (a % i == 0) {
+            flag = 0; 
+            break;
+        }
+        i = i + 1;
+     }
+
+    putint(flag);
+
+    return 0;
+}

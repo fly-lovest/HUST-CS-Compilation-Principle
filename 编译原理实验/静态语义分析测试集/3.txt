@@ -1,0 +1,20 @@
+int arr[3] = {1,2,3};
+
+float area(float l, float w){
+    return l * w;
+}
+
+float r=1;
+int main() {
+    float b = r[1];
+    float len = 11.2, width = 20.5, height = 5.0;
+    float a1 = area(len);
+    float a2 = area(len, width, height);
+    float a3 = area(len, width);
+
+    //foo(st);
+    //mymax(st, st);
+    foo = arr[a3];
+
+    return 0;
+}
